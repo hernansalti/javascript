@@ -1,0 +1,38 @@
+[
+    {
+        "id":1001,
+        "nombre":"Set de Mate Azul",
+        "imagen":"set09.jpeg",
+        "precio":400
+    },
+    {
+        "id":1002,
+        "nombre":"Set de Mate Celeste",
+        "imagen":"set02.jpeg",
+        "precio":450
+    },
+    {
+        "id":1003,
+        "nombre":"Set de Mate Rosa",
+        "imagen":"set03.jpeg",
+        "precio":500
+    },
+    {
+        "id":1004,
+        "nombre":"Set de Mate Acqua",
+        "imagen":"set06.jpeg",
+        "precio":500
+    },
+    {
+        "id":1005,
+        "nombre":"Set de Mate Amarillo",
+        "imagen":"set04.jpeg",
+        "precio":450
+    },
+    {
+        "id":1006,
+        "nombre":"Set de Mate Verde",
+        "imagen":"set05.jpeg",
+        "precio":450
+    }
+]

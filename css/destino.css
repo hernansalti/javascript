@@ -1,0 +1,269 @@
+/* ESTILOS CON SASS */
+/*** ESTILOS FUENTES ***/
+/*** ESTILOS ALINEACION ***/
+/*** ESTILOS COLORES ***/
+/*****************
+-------BODY-------
+*****************/
+body {
+  background-image: url(../img/fondo3b.png);
+  margin: 0px;
+  padding: 0px; }
+  body a {
+    text-decoration: none;
+    color: black; }
+  body a:hover {
+    text-shadow: 3px 3px 3px #5dc1b9; }
+
+/*****************
+------HEADER------
+*****************/
+.hlogo {
+  width: 20vh; }
+
+.hlogo1 {
+  padding: 15px 0px 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.titulo1 {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 5vw;
+  padding-top: 20px; }
+
+.titulo2 {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  color: black;
+  margin-bottom: 5%;
+  font-size: 3vw;
+  margin-left: 15%; }
+
+.sesion {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px; }
+
+/*****************
+------NAV--------
+*****************/
+.hnav {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly; }
+
+.titulo3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.desp {
+  background-color: #5dc1b98a; }
+
+/*****************
+------CUERPO------
+*****************/
+.car {
+  width: 20vw;
+  margin: 30px 30px 15px 10vw; }
+
+.texto1 {
+  width: 100%;
+  margin: 30px 5px 30px 5px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 3px 3px 5px #5dc1b9;
+  background-color: rgba(0, 0, 0, 0.356); }
+
+.img1 {
+  width: 30vw;
+  margin: 30px 30px 30px 10vw; }
+
+.texto2 {
+  list-style: none;
+  width: 100%;
+  margin: 20px 5px 30px 5px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-shadow: 3px 3px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+.imgdec {
+  border-radius: 100px;
+  box-shadow: 3px 3px 5px #5dc1b9; }
+
+/*****************
+------FOOTER------
+*****************/
+.foot1 {
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.486), white); }
+
+.logoig {
+  margin: 10px;
+  width: 50px; }
+
+.texto3 {
+  margin-left: 10vw;
+  padding-top: 17px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 16px;
+  text-shadow: 3px 3px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+/****NOSOTROS****/
+.subtitulo1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 4vw;
+  text-shadow: 3px 3px 5px #5dc1b9; }
+
+.foto1 {
+  margin-top: 20px;
+  width: 30vw;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+.fparrafo1 {
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9;
+  background-color: rgba(255, 255, 255, 0.356); }
+
+.parrafo1 {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 1.2vw;
+  padding: 20px; }
+
+/****UN BUEN MATE****/
+.estilo-tabla {
+  font-size: 20px;
+  text-shadow: 3px 3px 5px white;
+  background-color: #5dc1b98a; }
+
+th {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 20px; }
+
+td {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding: 5px; }
+
+/****Productos****/
+.imgprod {
+  width: 15vw;
+  margin: 15px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9; }
+
+.imgprod1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titulo4 {
+  padding: 10px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2vw;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #5dc1b9; }
+
+/****INGRESO****/
+.sub2 {
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px; }
+
+.formulario__contenido {
+  background-color: #5dc1b98a;
+  padding: 15px;
+  margin: 50px;
+  line-height: 25px; }
+
+.interlineado {
+  padding: 10px 5px; }
+
+/****CONTACTO****/
+.img2 {
+  width: 10vw; }
+
+/*****************
+--MEDIA QUERIES---
+*****************/
+@media (max-width: 1199.98px) {
+  body {
+    margin: 0px;
+    padding: 0px; }
+  .sesion {
+    font-size: 12px; } }
+
+@media (max-width: 991.98px) {
+  .titulo1 {
+    font-size: 7vw; }
+  .titulo2 {
+    font-size: 4vw; }
+  .sesion {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .car {
+    width: 25vw;
+    margin-left: 35%; }
+  .img1 {
+    width: 35vw;
+    margin-left: 28%; } }
+
+@media (max-width: 768px) {
+  .hlogo {
+    width: 15vh; }
+  .texto3 {
+    font-size: 14px; }
+  .parrafo1 {
+    font-size: 1.6vw; }
+  .subtitulo1 {
+    font-size: 5.5vw; } }
+
+@media (max-width: 575.98px) {
+  .hlogo {
+    width: 12vh; }
+  .titulo1 {
+    font-size: 9vw; }
+  .titulo2 {
+    font-size: 5vw; }
+  .car {
+    width: 30vw; }
+  .img1 {
+    width: 40vw; }
+  .texto3 {
+    font-size: 12px; }
+  .imgprod {
+    width: 35vw; }
+  .foto1 {
+    width: 40vw; }
+  .sub2 {
+    font-size: 20px; }
+  th {
+    font-size: 12px; }
+  td {
+    font-size: 8px; } }
